@@ -1,0 +1,15 @@
+{
+  "name": "yorch-portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/style/sass:src/style/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

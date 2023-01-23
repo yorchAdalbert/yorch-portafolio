@@ -37,8 +37,9 @@ body {
 }
 .header__nav ul li a {
   color: white;
-  text-decoration: none;
+  font-size: 0.8rem;
   opacity: 0.7;
+  text-decoration: none;
 }
 .header__title {
   font-size: clamp(1.8rem, 3vw, 3rem);
@@ -46,12 +47,17 @@ body {
 }
 
 .header {
-  width: min(90%, 60rem);
+  width: min(90%, 70rem);
   margin: auto;
-  padding-top: clamp(1.875em, 4.5vw, 3.75em);
+  padding: clamp(1.875em, 3vw, 3.75em) 0;
+}
+.header__title {
+  width: min(100%, 35rem);
 }
 
 .hero img {
+  margin: auto;
+  max-width: 1550px;
   width: 100%;
 }
 

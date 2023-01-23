@@ -51,4 +51,8 @@ body {
   padding-top: clamp(1.875em, 4.5vw, 3.75em);
 }
 
+.hero img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

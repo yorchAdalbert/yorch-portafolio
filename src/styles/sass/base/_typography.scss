@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.header {
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+    &__nav {
+        ul {
+            list-style: none;
+
+            li a {
+                color: white;
+                text-decoration: none;
+                opacity: .7;
+            }
+        }
+    }
+
+    &__title {
+        font-size: clamp(1.8rem, 3vw, 3rem);
+        font-family: 'DM Serif Display', serif;
+    }
+}
